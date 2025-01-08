@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+#chat-container {
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+body.dark-mode #chat-container {
+    background-color: #343a40;
+    border-color: #495057;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    max-width: 70%;
+    clear: both;
+}
+
+.user-message {
+    background-color: #007bff;
+    color: white;
+    float: right;
+}
+
+.bot-message {
+    background-color: #e9ecef;
+    color: black;
+    float: left;
+}
+
+body.dark-mode .user-message {
+    background-color: #0056b3;
+}
+
+body.dark-mode .bot-message {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+body.dark-mode .footer {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+#typing-indicator {
+    font-style: italic;
+    color: #6c757d;
+}
+
+body.dark-mode #typing-indicator {
+    color: #adb5bd;
+}
